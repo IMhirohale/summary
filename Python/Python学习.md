@@ -1,8 +1,8 @@
-#### 关于virtualenv
+####  关于virtualenv
 
 virtualenv是用来为一个应用创建一套“隔离”的Python运行环境。
 
-#####一、使用方式：
+##### 一、使用方式：
 
 （1）创建一个项目文件夹：mkdir myproject，进入该目录。
 
@@ -32,11 +32,11 @@ deactivate
 
 原理：把系统Python复制一份到virtualenv的环境，用命令`source venv/bin/activate`进入一个virtualenv环境时，virtualenv会修改相关环境变量，让命令`python`和`pip`均指向当前的virtualenv环境。
 
-##### 总结
+#####  总结
 
 Venv完全可以针对每个应用创建独立的Python运行环境，这样就可以对每个应用的Python环境进行隔离。
 
-#####virtualenv为应用提供了隔离的Python运行环境，解决了不同应用间多版本的冲突问题。
+##### virtualenv为应用提供了隔离的Python运行环境，解决了不同应用间多版本的冲突问题。
 
 
 
