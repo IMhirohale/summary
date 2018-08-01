@@ -1,4 +1,4 @@
-###资料和环境准备
+### 资料和环境准备
 
 Git地址：git@github.com:vim/vim.git
 
